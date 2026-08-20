@@ -1,1 +1,8 @@
-
+The working of this Battery Level Indicator is based on voltage comparison using the LM3914 IC. 
+The LM3914 internally contains 10 comparators. Each comparator corresponds to one LED output. 
+When the battery voltage is applied to the input signal pin, the IC compares it with internally generated reference voltages. 
+Depending on the voltage level: 
+                A specific comparator activates 
+                The corresponding LED turns ON 
+                Higher voltage lights more LEDs 
+Thus the LEDs provide a visual indication of the battery charge level.
